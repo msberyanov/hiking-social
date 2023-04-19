@@ -1,0 +1,9 @@
+.navigation-icons:last-of-type,
+.navigation-icons:not(:last-child) {
+  @apply w-5 h-5 mb-9
+}
+
+.navigation-icons.current {
+  @apply text-sky-700
+}
+

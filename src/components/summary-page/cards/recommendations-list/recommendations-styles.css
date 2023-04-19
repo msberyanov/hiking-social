@@ -1,0 +1,7 @@
+.recommendation-avatar {
+  @apply rounded-[25px] w-[25px] h-[25px] border-2 border-white;
+}
+
+.recommendation-avatar:not(:first-child) {
+  @apply ml-[-7px];
+}
